@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/bgnct2"
+        android:layout_width="590dp"
+        android:layout_height="845dp"
+        android:src="@drawable/nct2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-113dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/silang"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:src="@drawable/silang"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/cari"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:src="@drawable/iconcari"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewkeranjang"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:src="@drawable/keranjang"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <TextView
+        android:id="@+id/NCT2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NCT"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/buttonalbum"
+        android:layout_width="309dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bgputih"
+        android:text="Album"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <Button
+        android:id="@+id/buttonlighstick"
+        android:layout_width="309dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bgputih"
+        android:text="Lighstick"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <Button
+        android:id="@+id/buttonphotocard"
+        android:layout_width="309dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bgputih"
+        android:text="Photocard"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <Button
+        android:id="@+id/buttonkeyring"
+        android:layout_width="309dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bgputih"
+        android:text="keyring"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
